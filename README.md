@@ -1,5 +1,5 @@
 # Sentiment Analysis
-This system is for sentiment analysis for Bengali language. 
+This system is for sentiment analysis from Bengali text.  
 
 ## Installation 
 
@@ -27,3 +27,4 @@ uvicorn main:app --reload
 ```
 ## Output preview
 
+![Output Preview](./assets/output.jpg)
