@@ -1,9 +1,10 @@
 # Sentiment Analysis
-This system is for sentiment analysis from Bengali text.  
+This FastAPI application is designed for performing sentiment analysis on Bengali text.
 
 ## Installation 
 
-Clone repo and install required dependencies.
+To set up the application, follow these instructions:
+
 
 ```
 
@@ -15,13 +16,13 @@ pip install -r requirements.txt
 
 Download the model weight from [here](https://drive.google.com/drive/folders/1EuHZStggkSZIfltNuNvyttey6ZPrdvD9). 
 
-Copy pytorch_model.bin file paste to Sentiment-Analysis/app/sentiment
+Copy the pytorch_model.bin file and paste it into the Sentiment-Analysis/app/sentiment directory.
 
 ### You're ready to go...
 
 ## Inference 
 
-Open terminal in Sentiment-Analysis and execute: 
+To run the sentiment analysis application, open a terminal in the Sentiment-Analysis directory and execute the following command:
 ```
 uvicorn main:app --reload
 ```
